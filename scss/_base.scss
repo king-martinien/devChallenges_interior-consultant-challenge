@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: var(--font-Montserrat);
+}
+
+body {
+  background-color: var(--clr-dark-bg);
+  color: var(--clr-white);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}

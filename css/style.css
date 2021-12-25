@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap");
+:root {
+  --clr-dark-bg: #181719;
+  --clr-white: #fff;
+  --clr-primary: #e25e21;
+  --clr-gray: #828282;
+  --fnt-lora: Lora, "sans-serif";
+  --font-crimsonPro: "Crimson Pro", "sans-serif";
+  --font-Montserrat: Montserrat, "sans-serif";
+  --shd-box: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+*::selection {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: var(--font-Montserrat);
+}
+
+body {
+  background-color: var(--clr-dark-bg);
+  color: var(--clr-white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
