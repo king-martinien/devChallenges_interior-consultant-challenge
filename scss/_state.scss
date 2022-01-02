@@ -1,0 +1,15 @@
+.hamburger {
+  &.is-active {
+    .hamburger-icon {
+      background-color: transparent !important;
+
+      &::before {
+        transform: translateY(0) rotate(45deg) !important;
+      }
+
+      &::after {
+        transform: translateY(0) rotate(-45deg) !important;
+      }
+    }
+  }
+}
